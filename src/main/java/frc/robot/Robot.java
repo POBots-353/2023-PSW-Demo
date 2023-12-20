@@ -23,7 +23,7 @@ public class Robot extends TimedRobot {
   private String m_autoSelected;
   private final SendableChooser<String> m_chooser = new SendableChooser<>();
 
-  private CANSparkMax motor = new CANSparkMax(1, MotorType.kBrushed);
+  private CANSparkMax motor1 = new CANSparkMax(1, MotorType.kBrushless);
 
   /**
    * This function is run when the robot is first started up and should be used for any
